@@ -868,20 +868,42 @@
     //"window.activeBorder": null,
     //"window.inactiveBorder": null
   },
+  "semanticHighlighting": true,
+  "semanticTokenColors": {
+    "enumMember": {
+      "fontStyle": "italic"
+    },
+    // TypeScript types and interfaces
+    "type": {
+      "foreground": "#7A9EC2",
+      "fontStyle": ""
+    },
+    "interface.defaultLibrary": {
+      "foreground": "#A9B7C6",
+      "fontStyle": ""
+    },
+    "interface": "#7A9EC2",
+    "typeParameter": {
+      "foreground": "#66bdb5"
+    }
+  },
   "tokenColors": [
     {
+      "name": "Comment",
       "scope": ["comment"],
       "settings": {
         "foreground": "#808080"
       }
     },
     {
+      "name": "Gray",
       "scope": ["markup.fenced_code.block.markdown", "markup.fenced_code.block.markdown support.function"],
       "settings": {
         "foreground": "#72737A"
       }
     },
     {
+      "name": "Orange",
       "scope": [
         "keyword",
         "keyword.operator.new",
@@ -946,6 +968,7 @@
       }
     },
     {
+      "name": "Yellow",
       "scope": [
         "entity.name.function",
         "support.function",
@@ -959,6 +982,7 @@
       }
     },
     {
+      "name": "Yellow little faded",
       "scope": [
         "meta.selector.css",
         "support.function.misc.css",
@@ -998,6 +1022,7 @@
       }
     },
     {
+      "name": "YellowGreenish",
       "scope": ["punctuation.decorator", "meta.decorator entity.name.function"],
       "settings": {
         "foreground": "#BBB529",
@@ -1005,6 +1030,7 @@
       }
     },
     {
+      "name": "GreenYellowish",
       "scope": [
         "support.constant.property-value.css",
         "meta.property-value.css",
@@ -1034,6 +1060,7 @@
       }
     },
     {
+      "name": "Brown italic",
       "scope": ["variable.other.jsdoc", "entity.name.type.instance.jsdoc", "keyword.operator.assignment.jsdoc"],
       "settings": {
         "foreground": "#8A653B",
@@ -1041,6 +1068,7 @@
       }
     },
     {
+      "name": "Green Comment Italic",
       "scope": ["comment.block.documentation"],
       "settings": {
         "foreground": "#629755",
@@ -1048,6 +1076,7 @@
       }
     },
     {
+      "name": "Green Comment Italic Bold Underline",
       "scope": ["punctuation.definition.block.tag.jsdoc", "storage.type.class.jsdoc"],
       "settings": {
         "foreground": "#629755",
@@ -1055,6 +1084,7 @@
       }
     },
     {
+      "name": "Green String",
       "scope": [
         "string",
         "string.regexp",
@@ -1078,6 +1108,7 @@
       }
     },
     {
+      "name": "Green String Italic",
       "scope": ["markup.quote.markdown"],
       "settings": {
         "foreground": "#6A8759",
@@ -1085,6 +1116,7 @@
       }
     },
     {
+      "name": "GreenBluish",
       "scope": [
         "meta.type.parameters.ts",
         "meta.type.parameters.tsx",
@@ -1097,6 +1129,7 @@
       }
     },
     {
+      "name": "Blue",
       "scope": [
         "constant.numeric",
         "string.regexp punctuation.definition.string.begin",
@@ -1110,6 +1143,7 @@
       }
     },
     {
+      "name": "Another blue",
       "scope": ["variable.scss"],
       "settings": {
         "foreground": "#6D9CBE",
@@ -1117,6 +1151,7 @@
       }
     },
     {
+      "name": "Bright Blue",
       "scope": ["markup.underline.link.image.markdown", "markup.underline.link.markdown"],
       "settings": {
         "foreground": "#589DF6",
@@ -1124,6 +1159,7 @@
       }
     },
     {
+      "name": "Purple",
       "scope": [
         "meta.object-literal.key",
         "variable",
@@ -1145,6 +1181,7 @@
       }
     },
     {
+      "name": "Purple Italic",
       "scope": [
         "entity.other.ng-binding-name.ngFor.html",
         "entity.other.ng-binding-name.ngForOf.html",
@@ -1158,6 +1195,7 @@
       }
     },
     {
+      "name": "Purple Bold Italic",
       "scope": [
         "support",
         "support.constant.math",
@@ -1173,6 +1211,7 @@
       }
     },
     {
+      "name": "WhiteBluish",
       "scope": [
         "variable.parameter",
         "variable.parameter.ts",
@@ -1231,6 +1270,7 @@
       }
     },
     {
+      "name": "White",
       "scope": [
         "support.type.property-name.css",
         "keyword.other.unit.percentage.css",
@@ -1248,87 +1288,8 @@
         "fontStyle": ""
       }
     },
-    {
-      "scope": ["support.class.component.tsx", "support.class.component.js"],
-      "settings": {
-        "foreground": "#26BDA4"
-      }
-    },
-    {
-      "scope": ["variable.other.readwrite.ts"],
-      "settings": {
-        "foreground": "#C77632"
-      }
-    },
-    {
-      "scope": [
-        "punctuation.definition.template-expression.begin",
-        "punctuation.definition.template-expression.end",
-        "punctuation.definition.template-expression.begin.js",
-        "punctuation.definition.template-expression.end.js"
-      ],
-      "settings": {
-        "foreground": "#BE973D"
-      }
-    },
-    {
-      "scope": ["punctuation.definition.heading.markdown"],
-      "settings": {
-        "foreground": "#CB7732"
-      }
-    },
-    {
-      "scope": ["markup.heading.markdown"],
-      "settings": {
-        "foreground": "#9876AA",
-        "fontStyle": ""
-      }
-    },
-    {
-      "scope": ["markup.inline.raw.string.markdown"],
-      "settings": {
-        "foreground": "#6A8759"
-      }
-    },
-    {
-      "scope": ["punctuation.definition.raw.markdown"],
-      "settings": {
-        "foreground": "#CB7732"
-      }
-    },
-    {
-      "scope": ["markup.fenced_code.block.markdown"],
-      "settings": {
-        "foreground": "#A6B3C2"
-      }
-    },
-    {
-      "scope": [
-        "punctuation.definition.link.title.begin.markdown",
-        "punctuation.definition.link.title.end.markdown",
-        "punctuation.definition.link.description.begin.markdown",
-        "punctuation.definition.link.description.end.markdown"
-      ],
-      "settings": {
-        "foreground": "#CB7732"
-      }
-    },
-    {
-      "scope": ["string.other.link.title.markdown", "string.other.link.description.markdown"],
-      "settings": {
-        "foreground": "#3D9FFD"
-      }
-    },
-    {
-      "scope": [
-        "punctuation.definition.bold.markdown",
-        "punctuation.definition.italic.markdown",
-        "punctuation.definition.strikethrough.markdown"
-      ],
-      "settings": {
-        "foreground": "#CB7732"
-      }
-    },
+    // colour tokens that VSCode created when running the "Developer: Generate Color Theme from Current Settings" command
+    // https://code.visualstudio.com/api/extension-guides/color-theme#create-a-new-color-theme
     {
       "scope": "token.info-token",
       "settings": {
@@ -1351,6 +1312,99 @@
       "scope": "token.debug-token",
       "settings": {
         "foreground": "#B267E6"
+      }
+    },
+    // custom colours
+    {
+      "name": "JSX custom component tags but not native tags",
+      "scope": ["support.class.component.tsx", "support.class.component.js"],
+      "settings": {
+        "foreground": "#26BDA4"
+      }
+    },
+    {
+      "name": "TypeScript value for a type key when defining the type inline",
+      "scope": ["variable.other.readwrite.ts"],
+      "settings": {
+        "foreground": "#C77632"
+      }
+    },
+    {
+      "name": "String Interpolation Begin and End (regular and styled-components)",
+      "scope": [
+        "punctuation.definition.template-expression.begin",
+        "punctuation.definition.template-expression.end",
+        "punctuation.definition.template-expression.begin.js",
+        "punctuation.definition.template-expression.end.js"
+      ],
+      "settings": {
+        "foreground": "#BE973D"
+      }
+    },
+    {
+      "name": "Markdown: heading defintion (the #)",
+      "scope": ["punctuation.definition.heading.markdown"],
+      "settings": {
+        "foreground": "#CB7732"
+      }
+    },
+    {
+      "name": "Markdown: heading",
+      "scope": ["markup.heading.markdown"],
+      "settings": {
+        "foreground": "#9876AA",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Markdown: inline code string (the 'foo' in 'abc `foo` def')",
+      "scope": ["markup.inline.raw.string.markdown"],
+      "settings": {
+        "foreground": "#6A8759"
+      }
+    },
+    {
+      "name": "Markdown: inline code punctuation (the backticks in 'abc `foo` def')",
+      "scope": ["punctuation.definition.raw.markdown"],
+      "settings": {
+        "foreground": "#CB7732"
+      }
+    },
+    {
+      "name": "Markdown: text in code block (e.g. text in a JSX component)",
+      "scope": ["markup.fenced_code.block.markdown"],
+      "settings": {
+        "foreground": "#A6B3C2"
+      }
+    },
+    {
+      "name": "Markdown: the brackets of link titles and descriptions",
+      "scope": [
+        "punctuation.definition.link.title.begin.markdown",
+        "punctuation.definition.link.title.end.markdown",
+        "punctuation.definition.link.description.begin.markdown",
+        "punctuation.definition.link.description.end.markdown"
+      ],
+      "settings": {
+        "foreground": "#CB7732"
+      }
+    },
+    {
+      "name": "Markdown: link titles and descriptions",
+      "scope": ["string.other.link.title.markdown", "string.other.link.description.markdown"],
+      "settings": {
+        "foreground": "#3D9FFD"
+      }
+    },
+    {
+      "name": "Markdown: punctuation for bold, italic, strikethrough",
+      "scope": [
+        "punctuation.definition.bold.markdown",
+        "punctuation.definition.italic.markdown",
+        "punctuation.definition.strikethrough.markdown"
+      ],
+      "settings": {
+        "foreground": "#CB7732"
       }
     }
   ]

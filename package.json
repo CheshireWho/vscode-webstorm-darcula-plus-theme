@@ -2,7 +2,13 @@
   "name": "webstorm-darcula-plus-theme",
   "displayName": "Webstorm Darcula Plus Theme",
   "description": "Classic Webstorm Darcula Theme with small enhancements",
-  "version": "0.0.1",
+  "publisher": "CheshireWho",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CheshireWho/vscode-webstorm-darcula-plus-theme.git"
+  },
+  "license": "MIT",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.99.0"
   },
