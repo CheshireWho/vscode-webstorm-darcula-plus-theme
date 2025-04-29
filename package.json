@@ -1,0 +1,21 @@
+{
+  "name": "webstorm-darcula-plus-theme",
+  "displayName": "Webstorm Darcula Plus Theme",
+  "description": "Classic Webstorm Darcula Theme with small enhancements",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Webstorm Darcula Plus Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/webstorm-darcula-plus-color-theme.json"
+      }
+    ]
+  }
+}
