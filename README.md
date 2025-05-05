@@ -14,7 +14,7 @@ Classic Webstorm Darcula Theme with small enhancements.
 
 ## Development
 
-The extension has been created following <https://code.visualstudio.com/api/extension-guides/color-theme#create-a-new-color-theme> and <https://code.visualstudio.com/api/get-started/your-first-extension>. 
+The extension has been created following <https://code.visualstudio.com/api/extension-guides/color-theme#create-a-new-color-theme> and <https://code.visualstudio.com/api/get-started/your-first-extension>.
 The generated [vsc-extension-quickstart.md](./vsc-extension-quickstart.md) has instructions on testing local changes.
 
 To create a new package, run:
