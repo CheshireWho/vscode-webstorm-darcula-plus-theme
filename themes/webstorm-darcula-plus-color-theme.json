@@ -1262,7 +1262,8 @@
         "keyword.operator.spread.graphql",
         "punctuation.colon.graphql",
         "variable.parameter.graphql",
-        "support.type.enum.graphql"
+        "support.type.enum.graphql",
+        "variable.other.readwrite.ts"
       ],
       "settings": {
         "foreground": "#A9B7C6",
@@ -1320,13 +1321,6 @@
       "scope": ["support.class.component.tsx", "support.class.component.js"],
       "settings": {
         "foreground": "#26BDA4"
-      }
-    },
-    {
-      "name": "TypeScript value for a type key when defining the type inline",
-      "scope": ["variable.other.readwrite.ts"],
-      "settings": {
-        "foreground": "#C77632"
       }
     },
     {
